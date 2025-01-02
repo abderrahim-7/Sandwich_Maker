@@ -1,0 +1,701 @@
+body{
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding:0px 25px;
+    margin: 5px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1{
+    color: green;
+    font-size: 50px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.burger_img{
+    height: 40px;
+    margin: 0px 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Sandwich {
+    height: 500px;
+    width: 700px;
+    margin-top : 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.ingredient{
+    background-color: rgb(215, 215, 215);
+    margin : 30px 5px;
+    display: flex;
+    width: 300px;
+    height: 500px;
+    align-items: flex-start;
+    border: 4px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+h2{
+    background-color: white;
+    margin: 5px 4px 0px 4px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.ingredient div {
+    margin-top: 0;
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    border : 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.ingredient div button {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.ingredient div :hover {
+    background-color: rgb(237, 199, 130);
+    .hole{
+        background-color: rgb(237, 199, 130);
+    }
+}
+
+#cheese {
+    height: 55px;
+    width: 55px;
+    background-color: rgb(240, 240, 24);
+    rotate: 20deg;
+    margin-left: 34px;
+    margin-bottom: 14px;
+    border: transparent;
+}
+
+#hole1{
+    height: 15px;
+    width: 15px;
+    border: transparent;
+    color: transparent;
+    border-radius: 50%;
+    position:relative ;
+    bottom: 5%;
+    right: 5px;
+}
+
+#hole2{
+    height: 15px;
+    width: 15px;
+    border: transparent;
+    color: transparent;
+    border-radius: 50%;
+    position:relative ;
+    left: 20px;
+    bottom: 10px;
+}
+
+#hole3{
+    height: 17px;
+    width: 13px;
+    border: transparent;
+    color: transparent;
+    border-radius: 50%;
+    position:relative ;
+    left: 40px;
+    top: 17px;
+}
+
+#hole4{
+    height: 13px;
+    width: 13px;
+    border: transparent;
+    color: transparent;
+    border-radius: 50%;
+    position:relative ;
+    bottom: 20px;
+    left: 10px;
+}
+
+#hole5{
+    height: 7px;
+    width: 7px;
+    border: transparent;
+    color: white;
+    border-radius: 50%;
+    position:relative ;
+    bottom: 35px;
+    left: 35px;
+}
+
+
+h3{
+    margin: 0px;
+    font-weight: 100;
+}
+
+#onion{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    border: 7px solid rgb(165, 19, 165);
+    background-color: rgb(235, 235, 235);
+    
+}
+
+#onionIntern{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    border: 2px solid purple;
+}
+
+#meat{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 33px;
+    background-color: rgba(142, 30, 30, 0.89);
+    border: transparent;
+}
+
+#line1 {
+    height: 0px;
+    width: 37px;
+    rotate: 20deg;
+    position: relative;
+    top: 14px;
+    left: 14px;
+    background-color: rgba(61, 10, 10, 0.735) ;
+    border: solid  rgba(61, 10, 10, 0.735) ;
+}
+
+#line2 {
+    height: 0px;
+    width: 45px;
+    rotate: 20deg;
+    position: relative;
+    top: 22px;
+    left: 5px;
+    background-color: rgba(61, 10, 10, 0.735) ;
+    border: solid  rgba(61, 10, 10, 0.735) ;
+}
+
+#line3 {
+    height: 0px;
+    width: 37px;
+    rotate: 20deg;
+    position: relative;
+    top: 32px;
+    left: 5px;
+    background-color: rgba(61, 10, 10, 0.735) ;
+    border: solid  rgba(61, 10, 10, 0.735) ;
+}
+
+#tomato{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 7px solid red;
+    background-color: rgb(234, 106, 106);
+}
+
+#line5{
+    width: 5px;
+    height: 65px;
+    position: relative;
+    left: 27px;
+    bottom: 3px;
+    background-color: red;
+    border: transparent;
+}
+
+#grain1 {
+    width: 8px;
+    height: 4px;
+    rotate: 25deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 53px;
+    left: 14px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain2 {
+    width: 8px;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 45px;
+    left: 12px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain3 {
+    width: 8px;
+    height: 4px;
+    rotate: -25deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 37px;
+    left: 14px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain4 {
+    width: 8px;
+    height: 4px;
+    rotate: 25deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 42px;
+    left: 35px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain5 {
+    width: 8px;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 61px;
+    left: 37px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain6 {
+    width: 8px;
+    height: 4px;
+    rotate: -25deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 79px;
+    left: 35px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#lettuce {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    margin-left: 37px;
+    margin-bottom: 10px;
+    border: transparent;
+}
+
+
+#leaf1 {
+    height: 25px;
+    width: 40px;
+    border-radius: 0 50%;
+    position: relative;
+    bottom: 72px;
+    right: 10px;
+    rotate: 25deg;
+    border: solid green;
+    background-color: rgb(82, 198, 82);
+}
+
+#leaf2 {
+    height: 25px;
+    width: 40px;
+    border-radius: 50% 0%;
+    position: relative;
+    left: 15px;
+    bottom: 46px;
+    rotate: -30deg;
+    border: solid green;
+    background-color: rgb(82, 198, 82);
+}
+
+#leaf3 {
+    height: 25px;
+    width: 20px;
+    border-radius: 0 50%;
+    position: relative;
+    bottom: 27px;
+    left: 24px;
+    rotate: 30deg;
+    border: solid green;
+    background-color: rgb(82, 198, 82);
+}
+
+#leaf4 {
+    height: 25px;
+    width: 20px;
+    border-radius: 50% 0%;
+    position: relative;
+    left: 3px;
+    top: 2px;
+    rotate: -40deg;
+    border: solid green;
+    background-color: rgb(82, 198, 82);
+}
+
+#leaf5 {
+    height: 5px;
+    width: 5px;
+    rotate: 45deg;
+    position: relative;
+    bottom: 116px;
+    left: 20px;
+    border: solid green;
+    border-radius: 0%;
+    background-color: rgb(82, 198, 82);
+}
+
+
+
+#cucumber {
+    height: 60px;
+    width: 60px;
+    margin-left: 27px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    border: 7px solid green;
+}
+
+#grain7 {
+    width: 8px;
+    height: 4px;
+    rotate: 90deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: -5px;
+    left: 25px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain8 {
+    width: 8px;
+    height: 4px;
+    rotate: -40deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: -12px;
+    left: 42px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain9 {
+    width: 8px;
+    height: 4px;
+    rotate: 40deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: -27px;
+    left: 43px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain10{
+    width: 8px;
+    height: 4px;
+    rotate: 90deg;
+    border-radius: 50%;
+    position: relative;
+    top : 34px;
+    left: 26px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain11 {
+    width: 8px;
+    height: 4px;
+    rotate: -40deg;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+#grain12 {
+    width: 8px;
+    height: 4px;
+    rotate: 40deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 11px;
+    left: 7px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+.Sandwich{
+    display: flex;
+    background-color: rgb(215, 215, 215);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.Sandwich div{
+    width: 120px;
+    height: 50px;
+    background-color:rgb(215, 215, 215);
+    border-radius: 10px;
+}
+
+#screen {
+    background-color: white;
+    width: 650px;
+    height: 430px;
+    border: 4px solid black;
+    border-radius: 14px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+
+.Sandwich div button {
+    width: inherit;
+    height: inherit;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#UndoImage {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    
+}
+
+#RetryImage {
+    width: 20px;
+    height: 20px;
+    rotate: 90deg;
+    margin-right: 5px;
+}
+
+#FinishImage {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+#line {
+    width: 0;
+    border: 2px black solid;
+    height: 27px;
+}
+
+#RetryButton :hover{
+    color: rgb(243, 182, 68);
+}
+
+#UndoButton :hover{
+    color: rgb(243, 182, 68);
+}
+
+#FinishButton :hover{
+    color: rgb(243, 182, 68);
+}
+
+#plate{
+    width: 80%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: silver;
+    border: 3px solid black;
+    position: relative;
+    bottom: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plateCenter{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    z-index: 1;
+}
+
+#Bottom_bread {
+    border-radius: 0 0 50% 50%;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(241, 167, 28);
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+#CHEESE {
+    height: 0;
+    width: 270px;
+    border: 6px solid yellow;
+    border-radius: 100% 100% 0px 0px;
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+#ONION{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: flex-end;
+    width: 250px;
+    height: max-content;
+    margin-bottom: 5px;
+    gap: 12px;
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+#ONION1 {
+    border-radius: 0 0 100% 100%;
+    height: 10px;
+    width: 125px;
+    background-color: rgb(197, 152, 210);
+    box-shadow: 0px 5px purple;
+    rotate: -10deg;
+    position: relative;
+    left: 17px;
+}
+
+#ONION2 {
+    border-radius: 0 0 100% 100%;
+    height: 10px;
+    width: 125px;
+    background-color: rgb(197, 152, 210);
+    box-shadow: 0px 5px purple;
+}
+
+#MEAT {
+    border-radius: 45% 45% 15% 15%;
+    width: 270px;
+    height: 25px;
+    background-color: rgb(104, 37, 37);
+    position: relative;
+    top: 30px;
+}
+
+#TOMATO{
+    border-radius: 31%;
+    height: 7px;
+    width: 240px;
+    background-color: rgb(226, 79, 79);
+    box-shadow: 0px 3px red, 0px -3px red;
+    position: relative;
+    top: 30px;
+}
+
+#LETTUCE{
+    height: 0;
+    width: 280px;
+    border: 6px solid rgb(82, 198, 82);
+    border-radius: 100% 100% 0px 0px;
+    rotate: 180deg;
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+#CUCUMBER{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: flex-end;
+    width: 250px;
+    height: max-content;
+    margin-bottom: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#CUCUMBER1 {
+    border-radius: 0 0 100% 100%;
+    height: 10px;
+    background-color: yellowgreen;
+    box-shadow: 0px 5px green;
+}
+#CUCUMBER2 {
+    border-radius: 0 0 100% 100%;
+    height: 10px;
+    background-color: yellowgreen;
+    box-shadow: 0px 5px green;
+    rotate: -15deg;
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+}
+
+#Top_bread{
+    border-radius: 50% 50% 0 0;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(241, 167, 28);
+    margin-top: 0;
+    position: relative;
+    bottom: 30px;
+    transition: transform 1s ease;
+   
+}
+
+
